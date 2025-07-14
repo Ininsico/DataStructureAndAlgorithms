@@ -1,4 +1,4 @@
-package BinarySearchTree;
+package AVLTree;
 
 import java.util.Scanner;
 
@@ -198,6 +198,7 @@ public class AVLTree {
         }
         return current.key;
     }
+
     public static void main(String[] args) {
         AVLTree tree = new AVLTree();
         Scanner sc = new Scanner(System.in);
