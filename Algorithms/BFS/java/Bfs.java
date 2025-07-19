@@ -55,8 +55,6 @@ public class Bfs {
         graph.put("F", Arrays.asList("C", "E"));
         String startNode = "A";
         BFSresult result = bfs(graph, startNode);
-        System.out.println("Visited Order: " + result.visitedorder);
-        System.out.println("Parent Relationships: " + result.parentMap);
-        System.out.println("Path from A to E: " + getPath(result.parentMap, "E"));
+        System.out.println("Visited Order: " + result.visitedorder);    
     }
 }
