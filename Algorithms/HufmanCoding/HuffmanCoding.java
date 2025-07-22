@@ -1,4 +1,4 @@
-package HufmanCoding;
+
 
 import java.util.*;
 
