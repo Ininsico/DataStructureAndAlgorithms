@@ -1,4 +1,3 @@
-package SearchingAlgorithms.TernarySearch;
 
 public class TernarySearch {
 

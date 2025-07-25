@@ -1,4 +1,3 @@
-package SearchingAlgorithms.Jumpsearch;
 
 public class JumpSearch {
 

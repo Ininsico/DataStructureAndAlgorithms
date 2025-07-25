@@ -1,4 +1,3 @@
-package SearchingAlgorithms.Interpolationsearch;
 
 public class InterpolationSearch {
 
