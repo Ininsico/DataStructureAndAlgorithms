@@ -1,0 +1,461 @@
+com\dsa\data\RealSpotifyService.java:5: error: package com.google.gson does not exist
+import com.google.gson.JsonArray;
+                      ^
+com\dsa\data\RealSpotifyService.java:6: error: package com.google.gson does not exist
+import com.google.gson.JsonElement;
+                      ^
+com\dsa\data\RealSpotifyService.java:7: error: package com.google.gson does not exist
+import com.google.gson.JsonObject;
+                      ^
+com\dsa\data\RealSpotifyService.java:8: error: package com.google.gson does not exist
+import com.google.gson.JsonParser;
+                      ^
+com\dsa\data\RealSpotifyService.java:338: error: cannot find symbol
+    private List<Track> parseTrackArray(JsonArray items) {
+                                        ^
+  symbol:   class JsonArray
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:353: error: cannot find symbol
+    private Track parseTrack(JsonObject obj) {
+                             ^
+  symbol:   class JsonObject
+  location: class RealSpotifyService
+com\dsa\data\SpotifyAuth.java:4: error: package com.google.gson does not exist
+import com.google.gson.JsonObject;
+                      ^
+com\dsa\data\SpotifyAuth.java:5: error: package com.google.gson does not exist
+import com.google.gson.JsonParser;
+                      ^
+com\dsa\ui\MainApp.java:9: error: package javafx.application does not exist
+import javafx.application.Application;
+                         ^
+com\dsa\ui\MainApp.java:10: error: package javafx.application does not exist
+import javafx.application.Platform;
+                         ^
+com\dsa\ui\MainApp.java:11: error: package javafx.geometry does not exist
+import javafx.geometry.Insets;
+                      ^
+com\dsa\ui\MainApp.java:12: error: package javafx.geometry does not exist
+import javafx.geometry.Pos;
+                      ^
+com\dsa\ui\MainApp.java:13: error: package javafx.scene does not exist
+import javafx.scene.Scene;
+                   ^
+com\dsa\ui\MainApp.java:15: error: package javafx.scene.effect does not exist
+import javafx.scene.effect.DropShadow;
+                          ^
+com\dsa\ui\MainApp.java:16: error: package javafx.scene.image does not exist
+import javafx.scene.image.Image;
+                         ^
+com\dsa\ui\MainApp.java:17: error: package javafx.scene.image does not exist
+import javafx.scene.image.ImageView;
+                         ^
+com\dsa\ui\MainApp.java:19: error: package javafx.scene.paint does not exist
+import javafx.scene.paint.Color;
+                         ^
+com\dsa\ui\MainApp.java:20: error: package javafx.stage does not exist
+import javafx.stage.Stage;
+                   ^
+com\dsa\ui\MainApp.java:26: error: cannot find symbol
+public class MainApp extends Application {
+                             ^
+  symbol: class Application
+com\dsa\ui\MainApp.java:36: error: cannot find symbol
+    private VBox mainContent;
+            ^
+  symbol:   class VBox
+  location: class MainApp
+com\dsa\ui\MainApp.java:37: error: cannot find symbol
+    private TextField searchField;
+            ^
+  symbol:   class TextField
+  location: class MainApp
+com\dsa\ui\MainApp.java:38: error: cannot find symbol
+    private VBox resultsBox;
+            ^
+  symbol:   class VBox
+  location: class MainApp
+com\dsa\ui\MainApp.java:39: error: cannot find symbol
+    private Label statusLabel;
+            ^
+  symbol:   class Label
+  location: class MainApp
+com\dsa\ui\MainApp.java:40: error: cannot find symbol
+    private Button loginBtn;
+            ^
+  symbol:   class Button
+  location: class MainApp
+com\dsa\ui\MainApp.java:43: error: cannot find symbol
+    public void start(Stage primaryStage) {
+                      ^
+  symbol:   class Stage
+  location: class MainApp
+com\dsa\ui\MainApp.java:95: error: cannot find symbol
+    private HBox createTopBar() {
+            ^
+  symbol:   class HBox
+  location: class MainApp
+com\dsa\ui\MainApp.java:226: error: cannot find symbol
+    private VBox createTrackCard(Track track) {
+            ^
+  symbol:   class VBox
+  location: class MainApp
+com\dsa\ui\MainApp.java:14: error: package javafx.scene.control does not exist
+import javafx.scene.control.*;
+                   ^
+com\dsa\ui\MainApp.java:18: error: package javafx.scene.layout does not exist
+import javafx.scene.layout.*;
+                   ^
+com\dsa\data\RealSpotifyService.java:95: error: cannot find symbol
+                tracks = parseTrackArray(JsonParser.parseString(response).getAsJsonObject().getAsJsonArray("items"));
+                                         ^
+  symbol:   variable JsonParser
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:112: error: cannot find symbol
+                JsonArray items = JsonParser.parseString(response).getAsJsonObject().getAsJsonArray("items");
+                ^
+  symbol:   class JsonArray
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:112: error: cannot find symbol
+                JsonArray items = JsonParser.parseString(response).getAsJsonObject().getAsJsonArray("items");
+                                  ^
+  symbol:   variable JsonParser
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:113: error: cannot find symbol
+                for (JsonElement item : items) {
+                     ^
+  symbol:   class JsonElement
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:114: error: cannot find symbol
+                    JsonObject trackObj = item.getAsJsonObject().getAsJsonObject("track");
+                    ^
+  symbol:   class JsonObject
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:134: error: cannot find symbol
+                JsonArray playlists = JsonParser.parseString(response).getAsJsonObject()
+                ^
+  symbol:   class JsonArray
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:134: error: cannot find symbol
+                JsonArray playlists = JsonParser.parseString(response).getAsJsonObject()
+                                      ^
+  symbol:   variable JsonParser
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:139: error: cannot find symbol
+                for (JsonElement playlist : playlists) {
+                     ^
+  symbol:   class JsonElement
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:161: error: cannot find symbol
+                JsonArray items = JsonParser.parseString(response).getAsJsonObject().getAsJsonArray("items");
+                ^
+  symbol:   class JsonArray
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:161: error: cannot find symbol
+                JsonArray items = JsonParser.parseString(response).getAsJsonObject().getAsJsonArray("items");
+                                  ^
+  symbol:   variable JsonParser
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:162: error: cannot find symbol
+                for (JsonElement item : items) {
+                     ^
+  symbol:   class JsonElement
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:163: error: cannot find symbol
+                    JsonObject trackObj = item.getAsJsonObject().getAsJsonObject("track");
+                    ^
+  symbol:   class JsonObject
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:185: error: cannot find symbol
+                tracks = parseTrackArray(JsonParser.parseString(response).getAsJsonObject().getAsJsonArray("tracks"));
+                                         ^
+  symbol:   variable JsonParser
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:202: error: cannot find symbol
+                JsonArray albums = JsonParser.parseString(response).getAsJsonObject()
+                ^
+  symbol:   class JsonArray
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:202: error: cannot find symbol
+                JsonArray albums = JsonParser.parseString(response).getAsJsonObject()
+                                   ^
+  symbol:   variable JsonParser
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:206: error: cannot find symbol
+                for (JsonElement album : albums) {
+                     ^
+  symbol:   class JsonElement
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:228: error: cannot find symbol
+                tracks = parseTrackArray(JsonParser.parseString(response).getAsJsonObject().getAsJsonArray("items"));
+                                         ^
+  symbol:   variable JsonParser
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:247: error: cannot find symbol
+                JsonArray items = JsonParser.parseString(response).getAsJsonObject()
+                ^
+  symbol:   class JsonArray
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:247: error: cannot find symbol
+                JsonArray items = JsonParser.parseString(response).getAsJsonObject()
+                                  ^
+  symbol:   variable JsonParser
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:285: error: cannot find symbol
+                tracks = parseTrackArray(JsonParser.parseString(response).getAsJsonObject().getAsJsonArray("tracks"));
+                                         ^
+  symbol:   variable JsonParser
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:311: error: cannot find symbol
+                    JsonArray features = JsonParser.parseString(response).getAsJsonObject()
+                    ^
+  symbol:   class JsonArray
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:311: error: cannot find symbol
+                    JsonArray features = JsonParser.parseString(response).getAsJsonObject()
+                                         ^
+  symbol:   variable JsonParser
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:315: error: cannot find symbol
+                        JsonElement featureElement = features.get(j);
+                        ^
+  symbol:   class JsonElement
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:317: error: cannot find symbol
+                            JsonObject feature = featureElement.getAsJsonObject();
+                            ^
+  symbol:   class JsonObject
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:340: error: cannot find symbol
+        for (JsonElement item : items) {
+             ^
+  symbol:   class JsonElement
+  location: class RealSpotifyService
+com\dsa\data\RealSpotifyService.java:364: error: cannot find symbol
+            JsonObject album = obj.getAsJsonObject("album");
+            ^
+  symbol:   class JsonObject
+  location: class RealSpotifyService
+com\dsa\data\SpotifyAuth.java:82: error: cannot find symbol
+        JsonObject json = JsonParser.parseString(response.body()).getAsJsonObject();
+        ^
+  symbol:   class JsonObject
+  location: class SpotifyAuth
+com\dsa\data\SpotifyAuth.java:82: error: cannot find symbol
+        JsonObject json = JsonParser.parseString(response.body()).getAsJsonObject();
+                          ^
+  symbol:   variable JsonParser
+  location: class SpotifyAuth
+com\dsa\ui\MainApp.java:42: error: method does not override or implement a method from a supertype
+    @Override
+    ^
+com\dsa\ui\MainApp.java:44: error: cannot find symbol
+        BorderPane root = new BorderPane();
+        ^
+  symbol:   class BorderPane
+  location: class MainApp
+com\dsa\ui\MainApp.java:44: error: cannot find symbol
+        BorderPane root = new BorderPane();
+                              ^
+  symbol:   class BorderPane
+  location: class MainApp
+com\dsa\ui\MainApp.java:48: error: cannot find symbol
+        HBox topBar = createTopBar();
+        ^
+  symbol:   class HBox
+  location: class MainApp
+com\dsa\ui\MainApp.java:52: error: cannot find symbol
+        mainContent = new VBox(20);
+                          ^
+  symbol:   class VBox
+  location: class MainApp
+com\dsa\ui\MainApp.java:53: error: cannot find symbol
+        mainContent.setPadding(new Insets(30));
+                                   ^
+  symbol:   class Insets
+  location: class MainApp
+com\dsa\ui\MainApp.java:54: error: cannot find symbol
+        mainContent.setAlignment(Pos.TOP_CENTER);
+                                 ^
+  symbol:   variable Pos
+  location: class MainApp
+com\dsa\ui\MainApp.java:57: error: cannot find symbol
+        Label title = new Label("? Adaptive Recommendation Engine");
+        ^
+  symbol:   class Label
+  location: class MainApp
+com\dsa\ui\MainApp.java:57: error: cannot find symbol
+        Label title = new Label("? Adaptive Recommendation Engine");
+                          ^
+  symbol:   class Label
+  location: class MainApp
+com\dsa\ui\MainApp.java:60: error: cannot find symbol
+        Label subtitle = new Label("Powered by Spotify API + DSA Algorithms");
+        ^
+  symbol:   class Label
+  location: class MainApp
+com\dsa\ui\MainApp.java:60: error: cannot find symbol
+        Label subtitle = new Label("Powered by Spotify API + DSA Algorithms");
+                             ^
+  symbol:   class Label
+  location: class MainApp
+com\dsa\ui\MainApp.java:63: error: cannot find symbol
+        statusLabel = new Label("Connect to Spotify to get started");
+                          ^
+  symbol:   class Label
+  location: class MainApp
+com\dsa\ui\MainApp.java:67: error: cannot find symbol
+        searchField = new TextField();
+                          ^
+  symbol:   class TextField
+  location: class MainApp
+com\dsa\ui\MainApp.java:78: error: cannot find symbol
+        resultsBox = new VBox(15);
+                         ^
+  symbol:   class VBox
+  location: class MainApp
+com\dsa\ui\MainApp.java:79: error: cannot find symbol
+        resultsBox.setAlignment(Pos.TOP_CENTER);
+                                ^
+  symbol:   variable Pos
+  location: class MainApp
+com\dsa\ui\MainApp.java:81: error: cannot find symbol
+        ScrollPane scrollPane = new ScrollPane(resultsBox);
+        ^
+  symbol:   class ScrollPane
+  location: class MainApp
+com\dsa\ui\MainApp.java:81: error: cannot find symbol
+        ScrollPane scrollPane = new ScrollPane(resultsBox);
+                                    ^
+  symbol:   class ScrollPane
+  location: class MainApp
+com\dsa\ui\MainApp.java:89: error: cannot find symbol
+        Scene scene = new Scene(root, 1000, 800);
+        ^
+  symbol:   class Scene
+  location: class MainApp
+com\dsa\ui\MainApp.java:89: error: cannot find symbol
+        Scene scene = new Scene(root, 1000, 800);
+                          ^
+  symbol:   class Scene
+  location: class MainApp
+com\dsa\ui\MainApp.java:96: error: cannot find symbol
+        HBox topBar = new HBox(20);
+        ^
+  symbol:   class HBox
+  location: class MainApp
+com\dsa\ui\MainApp.java:96: error: cannot find symbol
+        HBox topBar = new HBox(20);
+                          ^
+  symbol:   class HBox
+  location: class MainApp
+com\dsa\ui\MainApp.java:97: error: cannot find symbol
+        topBar.setPadding(new Insets(15, 30, 15, 30));
+                              ^
+  symbol:   class Insets
+  location: class MainApp
+com\dsa\ui\MainApp.java:98: error: cannot find symbol
+        topBar.setAlignment(Pos.CENTER_RIGHT);
+                            ^
+  symbol:   variable Pos
+  location: class MainApp
+com\dsa\ui\MainApp.java:101: error: cannot find symbol
+        loginBtn = new Button("? Connect Spotify");
+                       ^
+  symbol:   class Button
+  location: class MainApp
+com\dsa\ui\MainApp.java:123: error: cannot find symbol
+                Platform.runLater(() -> {
+                ^
+  symbol:   variable Platform
+  location: class MainApp
+com\dsa\ui\MainApp.java:132: error: cannot find symbol
+                Platform.runLater(() -> statusLabel.setText("Indexing tracks for search..."));
+                ^
+  symbol:   variable Platform
+  location: class MainApp
+com\dsa\ui\MainApp.java:141: error: cannot find symbol
+                Platform.runLater(() -> {
+                ^
+  symbol:   variable Platform
+  location: class MainApp
+com\dsa\ui\MainApp.java:148: error: cannot find symbol
+                Platform.runLater(() -> {
+                ^
+  symbol:   variable Platform
+  location: class MainApp
+com\dsa\ui\MainApp.java:162: error: cannot find symbol
+        Label madeForYouLabel = new Label("? Made For You");
+        ^
+  symbol:   class Label
+  location: class MainApp
+com\dsa\ui\MainApp.java:162: error: cannot find symbol
+        Label madeForYouLabel = new Label("? Made For You");
+                                    ^
+  symbol:   class Label
+  location: class MainApp
+com\dsa\ui\MainApp.java:167: error: cannot find symbol
+        HBox recBox = new HBox(15);
+        ^
+  symbol:   class HBox
+  location: class MainApp
+com\dsa\ui\MainApp.java:167: error: cannot find symbol
+        HBox recBox = new HBox(15);
+                          ^
+  symbol:   class HBox
+  location: class MainApp
+com\dsa\ui\MainApp.java:168: error: cannot find symbol
+        recBox.setAlignment(Pos.CENTER);
+                            ^
+  symbol:   variable Pos
+  location: class MainApp
+com\dsa\ui\MainApp.java:175: error: cannot find symbol
+        Label mixesLabel = new Label("? Daily Mixes");
+        ^
+  symbol:   class Label
+  location: class MainApp
+com\dsa\ui\MainApp.java:175: error: cannot find symbol
+        Label mixesLabel = new Label("? Daily Mixes");
+                               ^
+  symbol:   class Label
+  location: class MainApp
+com\dsa\ui\MainApp.java:181: error: cannot find symbol
+            Label mixLabel = new Label("? " + entry.getKey());
+            ^
+  symbol:   class Label
+  location: class MainApp
+com\dsa\ui\MainApp.java:181: error: cannot find symbol
+            Label mixLabel = new Label("? " + entry.getKey());
+                                 ^
+  symbol:   class Label
+  location: class MainApp
+com\dsa\ui\MainApp.java:185: error: cannot find symbol
+            HBox mixBox = new HBox(15);
+            ^
+  symbol:   class HBox
+  location: class MainApp
+com\dsa\ui\MainApp.java:185: error: cannot find symbol
+            HBox mixBox = new HBox(15);
+                              ^
+  symbol:   class HBox
+  location: class MainApp
+com\dsa\ui\MainApp.java:186: error: cannot find symbol
+            mixBox.setAlignment(Pos.CENTER);
+                                ^
+  symbol:   variable Pos
+  location: class MainApp
+com\dsa\ui\MainApp.java:202: error: cannot find symbol
+        Label searchLabel = new Label("? Search Results for: \"" + query + "\"");
+        ^
+  symbol:   class Label
+  location: class MainApp
+com\dsa\ui\MainApp.java:202: error: cannot find symbol
+        Label searchLabel = new Label("? Search Results for: \"" + query + "\"");
+                                ^
+  symbol:   class Label
+  location: class MainApp
+com\dsa\ui\MainApp.java:207: error: incompatible types: Track cannot be converted to List<Track>
+        List<Track> results = trackDb.search(query.toLowerCase());
+                                            ^
+100 errors
+only showing the first 100 errors, of 118 total; use -Xmaxerrs if you would like to see more
